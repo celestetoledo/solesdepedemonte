@@ -28,17 +28,17 @@ h3{
 	font-size: 14px;
 }
 
-.menu-little {
+.menu-big {
 color:#FFF;
 display: inline-block;
 }
 
-.menu-little li{
+.menu-big li{
 display: inline-block;	
 padding:0px;
 }
 
-.menu-little li a{
+.menu-big li a{
 text-decoration: none;
 color:#8C1B14;	
 text-transform: uppercase;
