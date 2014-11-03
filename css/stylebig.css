@@ -1,4 +1,4 @@
-.menu-little {
+.menu-big {
 color:#FFF;
 display: inline-block;
 font-size: 14px;
@@ -7,9 +7,9 @@ height: 30px;
 }
 
 header{
-	background-image: url(../img/marcagrande.png);
+	background-image: "img/marcagrande.png";
 	background-repeat: no-repeat;
 	background-position:center;
-	background-size: 800px;
+	background-size: 300px;
 }
 
