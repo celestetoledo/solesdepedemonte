@@ -16,3 +16,13 @@ h1, h2, h3, h4 {
 	font-family: "Patrick+Hand";
 
 }
+
+.menu-little {
+padding:0px 0px 0px 20px;
+color:#FFF;
+text-transform: uppercase;
+text-decoration: none;
+display: inline-bolck;
+font-weight: bold;
+font-size: .9em;
+}
