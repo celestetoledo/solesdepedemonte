@@ -1,16 +1,23 @@
-.menu-big {
-color:#FFF;
-display: inline-block;
-font-size: 14px;
-width: 50%;
-height: 30px;
-}
-
 header{
 	background-image: "img/marcagrande.png";
 	background-repeat: no-repeat;
 	background-position:center;
 }
+
+.menu-big {
+font-size: 18px;
+width: 60%;
+height: 30px;
+}
+
+.menu-little {
+font-size: 14px;
+width: 60%;
+height: 20px;
+position: fixed;
+top: 0;
+}
+
 
 
 
