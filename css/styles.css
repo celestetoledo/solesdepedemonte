@@ -83,5 +83,13 @@ font-weight: bold;
 }
 
 .inicio{
-	background-color: yellow;
+	background-color:#FEF5B2;
+}
+
+.nuestrahistoria{
+	background-color:#FBD8C1; 
+}
+
+.nuestrostrabajos{
+	background-color:#FCDDA8;
 }

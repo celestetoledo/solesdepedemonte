@@ -31,6 +31,23 @@ header{
 	height: 800px;
 }
 
+.nuestrahistoria{
+	background-color:#FBD8C1; 
+	width: 100%;
+	height: 800px;
+}
+
+.nuestrostrabajos{
+	background-color:#FCDDA8;
+	width: 100%;
+	height: 800px;
+}
+
+.fotorama{
+	width: 70%;
+	height: 400px;
+}
+
 
 
 
