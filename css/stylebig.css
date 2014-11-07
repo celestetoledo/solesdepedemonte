@@ -1,13 +1,10 @@
-header{
-	background-image: "img/marcagrande.png";
-	background-repeat: no-repeat;
-	background-position:center;
+
+.marcagrande{
+	padding: 150px 0px 0px 0px;
 }
 
 .menu-big {
 font-size: 18px;
-width: 60%;
-height: 30px;
 }
 
 .menu-little {

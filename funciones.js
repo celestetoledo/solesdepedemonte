@@ -2,7 +2,7 @@ $('.menu-little').hide();
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    if (scroll > 300) {
+    if (scroll > 500) {
         $('.menu-little').show();
     } else {
         $('.menu-little').hide();
