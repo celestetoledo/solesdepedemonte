@@ -28,9 +28,17 @@ h3{
 	font-size: 14px;
 }
 
+.containerbig {
+ clear:both;
+ overflow:hidden;
+ width:100%;
+ text-align: center;
+}
+
 .menu-big {
 color:#FFF;
 display: inline-block;
+text-align: center;
 }
 
 .menu-big li{
@@ -43,10 +51,20 @@ text-decoration: none;
 color:#8C1B14;	
 text-transform: uppercase;
 font-weight: bold;
-text-align: center;
+margin:0 auto;
+padding:0;
+position:relative;
+}
+
+.containerlittle{
+clear:both;
+overflow:hidden;
+width:100%;
+text-align: right;
 }
 
 .menu-little {
+position: absolute;
 color:#FFF;
 display: inline-block;
 background-color: #FFF;
@@ -62,6 +80,8 @@ text-decoration: none;
 color:#8C1B14;	
 text-transform: uppercase;
 font-weight: bold;
-text-align: center;
-padding: 30px, 30px, 0px, 300px;
+}
+
+.inicio{
+	background-color: yellow;
 }
