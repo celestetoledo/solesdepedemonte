@@ -1,10 +1,26 @@
+h1{
+	font-size: 21px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+h3{
+	font-size: 14px;
+}
 
 .marcagrande{
 	padding: 150px 0px 0px 0px;
 }
 
+.containerbig{
+width: 100%;
+height: 300px;
+}
+
 .menu-big {
-font-size: 18px;
+font-size: 16px;
 }
 
 .menu-little {
@@ -15,37 +31,66 @@ position: fixed;
 top: 0;
 }
 
+.menu-big li a{
+padding:0px 15px 0px 0px;	
+}
+
 header{
 	background-size: 100%;
 	width: 100%;
-	height: 450px;
+	height: 420px;
 }
 
-.containerbig{
-	width: 100%;
-	height: 250px;
-}
 .inicio{
 	background-size: 600px;
 	width: 100%;
 	height: 800px;
+	padding: 20px 30px ;
+}
+
+.descripcion{
+	width: 100%;
+	text-align: center;
+	height: 150px;
+	padding: 30px;
+}
+
+.mision{
+	float: left;
+	width: 700px;
+	font-size: 18px;
+	padding: 30px;
+}
+
+.vision{
+	float: right;
+	width: 700px;
+	font-size: 18px;
+	padding: 30px;
 }
 
 .nuestrahistoria{
-	background-color:#FBD8C1; 
 	width: 100%;
 	height: 800px;
+	padding: 20px 30px ;
 }
 
 .nuestrostrabajos{
-	background-color:#FCDDA8;
 	width: 100%;
 	height: 800px;
+	padding: 20px 30px ;
 }
 
 .fotorama{
 	width: 70%;
 	height: 400px;
+}
+
+.contacto{
+	background-size: 600px;
+	width: 100%;
+	height: 800px;
+	padding: 20px 30px ;
 }
 
 

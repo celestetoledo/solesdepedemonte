@@ -16,17 +16,7 @@ h1, h2, h3, h4 {
 	font-family:"Patrick Hand";
 }
 
-h1{
-	font-size: 21px;
-}
 
-h2{
-	font-size: 18px;
-}
-
-h3{
-	font-size: 14px;
-}
 
 .containerbig {
  clear:both;
@@ -86,10 +76,23 @@ font-weight: bold;
 	background-color:#FEF5B2;
 }
 
+.info-inicio{
+text-decoration: none;
+color:#8C1B14;	
+font-weight: bold;
+margin:0 auto;
+padding:0;
+font-family:"Patrick Hand";
+}
+
 .nuestrahistoria{
 	background-color:#FBD8C1; 
 }
 
 .nuestrostrabajos{
 	background-color:#FCDDA8;
+}
+
+.contacto{
+	background-color:#FEF5B2;
 }
