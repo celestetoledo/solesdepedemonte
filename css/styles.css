@@ -65,7 +65,7 @@ font-weight: bold;
 }
 
 #inicio{
-background-color:#FEF5B2;
+background-color:#FBD8C1;
 }
 
 .info-inicio{
@@ -80,8 +80,8 @@ font-family:"Open Sans";
 text-decoration: none;
 }
 
-#nuestrahistoria{
-	background-color:#FBD8C1; 
+#nuestrahistoria{	
+	background-color:#FEF5B2; 
 }
 
 #nuestrostrabajos{
@@ -89,5 +89,5 @@ text-decoration: none;
 }
 
 #contacto{
-	background-color:#FEF5B2;
+	background-color:#FBD8C1;
 }
