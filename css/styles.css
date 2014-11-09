@@ -64,27 +64,30 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-.inicio{
+#inicio{
 background-color:#FEF5B2;
 }
 
 .info-inicio{
 text-decoration: none;
 color:#8C1B14;	
-font-weight: bold;
 margin:0 auto;
 padding:0;
-font-family:"Patrick Hand";
+font-family:"Open Sans";
 }
 
-.nuestrahistoria{
+.info-inicio li{
+text-decoration: none;
+}
+
+#nuestrahistoria{
 	background-color:#FBD8C1; 
 }
 
-.nuestrostrabajos{
+#nuestrostrabajos{
 	background-color:#FCDDA8;
 }
 
-.contacto{
+#contacto{
 	background-color:#FEF5B2;
 }
