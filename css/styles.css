@@ -45,13 +45,6 @@ padding:0;
 position:relative;
 }
 
-.containerlittle{
-position: absolute;
-clear:both;
-overflow:hidden;
-width:100%;
-}
-
 .menu-little {
 position: absolute;
 color:#FFF;
