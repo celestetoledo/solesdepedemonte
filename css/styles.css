@@ -17,7 +17,6 @@ h1, h2, h3, h4 {
 }
 
 
-
 .containerbig {
  clear:both;
  overflow:hidden;
@@ -47,10 +46,10 @@ position:relative;
 }
 
 .containerlittle{
+position: absolute;
 clear:both;
 overflow:hidden;
 width:100%;
-text-align: right;
 }
 
 .menu-little {
@@ -73,7 +72,7 @@ font-weight: bold;
 }
 
 .inicio{
-	background-color:#FEF5B2;
+background-color:#FEF5B2;
 }
 
 .info-inicio{
