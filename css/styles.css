@@ -52,11 +52,6 @@ display: inline-block;
 background-color: #FFF;
 }
 
-.menu-little li{
-display: inline-block;	
-padding:0px;
-}
-
 .menu-little li a{
 text-decoration: none;
 color:#8C1B14;	
