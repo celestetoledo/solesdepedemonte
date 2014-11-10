@@ -8,11 +8,6 @@
 		<link href="css/stylebig.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="css/stylemedium.css" rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)">
 		<link href="css/stylelittle.css" rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-		<link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> 
-		<script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> 
-
-		<script src="funciones.js"></script>
 	</head>
 
 	<header>
@@ -72,42 +67,18 @@
 		<h1>Nuestros Trabajos</h1>
 			
 
-		<ul class= "categorias-nuestrostrabajos">
-			<li>Alta costura</li>
-
-
-
-			<li>Uniformes de trabajo</li>
-
-
+		<ul class="categorias-nuestrostrabajos fotorama-nav">
+			<li data-show="#fotorama1">Alta costura</li>
+			<li data-show="#fotorama2">Uniformes de trabajo</li>
 			<li>Trajes para eventos</li>
-
-			<li>Buzos de egresados
-
-
-
-
-
-			</li>
-
+			<li>Buzos de egresados</li>
 			<li>Ropa Sport
-
-
-				<div class="fotorama"
-    				 data-auto="false">
- 			 		
-  			 	
-
-				</div>
-
-
-
-
-			</li>
-			
-			<li>Línea Hogar
-
-				<div class="fotorama"
+			<li>Línea Hogar</li>
+		</ul>
+			<div class="fotorama" 
+					data-auto="false"></div>
+				
+			<div class="fotorama" id="fotorama1"
     				 data-auto="false">
  			 		<img src="fotos Soles/toalla.jpg"/>
   			 		<img src="fotos Soles/sabanaositos.jpg"/>
@@ -115,18 +86,17 @@
   			 		<img src="fotos Soles/mantelblanco.jpg"/>
   			 		<img src="fotos Soles/mantaverde.jpg"/>
   			 		<img src="fotos Soles/sabanaanimalprint.jpg"/>	
+			</div>
 
-				</div>
-
-
-			</li>
-		<ul/>
-
-		<script type="text/javascript">
-			$(function () {
-  			$('.fotorama').fotorama();
-		});
-		</script>
+			<div class="fotorama" id="fotorama2"
+    				 data-auto="false">
+ 			 		<img src="fotos Soles/toalla.jpg"/>
+  			 		<img src="fotos Soles/sabanaositos.jpg"/>
+  			 		<img src="fotos Soles/sabanasositos.jpg"/>
+  			 		<img src="fotos Soles/mantelblanco.jpg"/>
+  			 		<img src="fotos Soles/mantaverde.jpg"/>
+  			 		<img src="fotos Soles/sabanaanimalprint.jpg"/>	
+			</div>
 	</section>
 
 	<section id="contacto" class="slide contacto">
@@ -168,5 +138,25 @@
 
 	<footer>Soles de Piedemonte 261230444 solesdepiedemonte@gmail.com</footer>
 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+		<link  href="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.css" rel="stylesheet"> 
+		<script src="http://fotorama.s3.amazonaws.com/4.6.2/fotorama.js"></script> 
+
+		<script src="funciones.js"></script>
+		<script type="text/javascript">
+			$(function () {
+  			$('.fotorama').fotorama();
+  			
+  			$(document).ready(function(){
+  				$(".fotorama").hide();
+  			});
+
+  			$(".fotorama-nav li").click(function(){
+  				var show = $(this).attr("data-show");
+  				$(".fotorama").hide();
+  				$(show).fadeIn();
+  			})
+		});
+		</script>
 </body>
 </html>
