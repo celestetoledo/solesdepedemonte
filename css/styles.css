@@ -46,23 +46,6 @@ padding: 150px 0px 0px 0px;
 height: 250px;
 }
 
-.containerbig{
-width: 100%;
-height: 250px;
-}
-
-.logo {
-width: "350px"; 
-height: "250px";
-}
-
-.menu-big {
-font-size: 16px;
-}
-
-.menu-big li a{
-padding:0px 15px 0px 0px;	
-}
 
 .menu-little {
 position: absolute;
@@ -111,9 +94,17 @@ clear:both;
 overflow:hidden;
 width:100%;
 text-align: center;
+width: 100%;
+height: 250px;
+}
+
+.logo {
+width: "350px"; 
+height: "250px";
 }
 
 .menu-big {
+font-size: 16px;
 color:#FFF;
 display: inline-block;
 text-align: center;
@@ -132,14 +123,14 @@ font-weight: bold;
 margin:0 auto;
 padding:0;
 position:relative;
-padding: 0px 20px 0px 0px;
+padding: 0px 20px 0px 0px;	
 }
 
 #inicio{
 background-color:#FBD8C1;
 width: 100%;
 height: 800px;		
-padding: 20px 30px ;
+padding: 40px;
 text-align: justify;
 }
 
