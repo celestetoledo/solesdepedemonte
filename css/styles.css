@@ -1,10 +1,12 @@
 @import url("normalize.css");
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Patrick+Hand);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
 
 body {
 background: #FFF;
 font-family: "Open Sans", Helvetica, Arial, sans-serif;
+font-size: 14px;
 width: 70%; 
 margin-top: 0;
 margin-right: auto;
@@ -13,7 +15,11 @@ margin-left: auto;
 }
 
 h1, h2, h3, h4 {
-font-family:"Patrick Hand";
+font-family: 'Droid Serif', serif;
+font-style: italic;
+font-weight: normal;
+text-decoration: none;
+color:#8C1B14;
 }
 
 h1{
@@ -126,6 +132,7 @@ font-weight: bold;
 margin:0 auto;
 padding:0;
 position:relative;
+padding: 0px 20px 0px 0px;
 }
 
 #inicio{
