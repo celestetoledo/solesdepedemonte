@@ -128,20 +128,48 @@ padding: 0px 20px 0px 0px;
 
 #inicio{
 background-color:#FBD8C1;
-width: 100%;
-height: 800px;		
-padding: 40px;
+width: 95.7%;
+height: 530px;		
+padding: 50px;
 text-align: justify;
 }
 
 .descripcion{
-width: 90%;
+width: 85%;
 height: 150px;
+font-family: 'Droid Serif', serif;
+font-style: italic;
+font-weight: normal;
+text-decoration: none;
+color:#8C1B14;
+font-size: 18px;
+text-align: justify;
+}
+
+.descripcion p{
+text-align: center;
+margin-left: 150px;
+}
+
+.origenes{
 padding: 30px;
 }
 
-.seccion-inicio h2{
-text-align: center;
+.origenes h2{
+text-align: left;
+}
+
+.origenizquierdo{
+float: left;
+width: 48%;
+margin-right: 0px;
+padding: 0px;
+
+}
+.origenderecho{
+float: right;
+width: 48%;
+padding: 0px;
 }
 
 .mision{
