@@ -1,11 +1,11 @@
-$('.menu-little').hide();
+$('.containerlittle').hide();
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    if (scroll > 500) {
-        $('.menu-little').show();
+    if (scroll > 450) {
+        $('.containerlittle').show();
     } else {
-        $('.menu-little').hide();
+        $('.containerlittle').hide();
     }
 });
 
