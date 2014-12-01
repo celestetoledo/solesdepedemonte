@@ -1,15 +1,20 @@
+// Ocultamos el menu que se muestra cuando scrolleamos.
 $('.containerlittle').hide();
 
+// Mostramos u ocultamos el menu cuando scrolleamos.
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-<<<<<<< Updated upstream
     if (scroll > 450) {
-=======
-    if (scroll > 500) {
->>>>>>> Stashed changes
         $('.containerlittle').show();
     } else {
         $('.containerlittle').hide();
     }
+});
+
+// Asignamos la clase .selected a cada item del menú que se clickea
+// para poder estilarlo.
+$('.menu a').click(function() {
+    $('.selected').removeClass('selected');
+    $(this).addClass('selected');
 });
 
